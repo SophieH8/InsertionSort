@@ -4,16 +4,6 @@
   "printedName": "TopLevel",
   "children": [
     {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "Simple",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
       "kind": "Var",
       "name": "wordArray",
       "printedName": "wordArray",
@@ -71,6 +61,28 @@
       "declAttributes": [
         "HasStorage"
       ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "word",
+      "printedName": "word",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:6Simple4wordSSvp",
+      "mangledName": "$s6Simple4wordSSvp",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "HasStorage"
+      ],
       "hasStorage": true
     },
     {
@@ -101,6 +113,9 @@
       "usr": "s:6Simple17stringGreaterThan7string17string2SbSS_SStF",
       "mangledName": "$s6Simple17stringGreaterThan7string17string2SbSS_SStF",
       "moduleName": "Simple",
+      "declAttributes": [
+        "RawDocComment"
+      ],
       "funcSelfKind": "NonMutating"
     },
     {
@@ -150,7 +165,7 @@
     {
       "kind": "Function",
       "name": "insertionSort",
-      "printedName": "insertionSort(unsortedStrings:)",
+      "printedName": "insertionSort(unsortedIntegers:)",
       "children": [
         {
           "kind": "TypeNominal",
@@ -182,44 +197,13 @@
         }
       ],
       "declKind": "Func",
-      "usr": "s:6Simple13insertionSort15unsortedStringsSaySSGAD_tF",
-      "mangledName": "$s6Simple13insertionSort15unsortedStringsSaySSGAD_tF",
+      "usr": "s:6Simple13insertionSort16unsortedIntegersSaySSGAD_tF",
+      "mangledName": "$s6Simple13insertionSort16unsortedIntegersSaySSGAD_tF",
       "moduleName": "Simple",
       "declAttributes": [
         "RawDocComment"
       ],
       "funcSelfKind": "NonMutating"
-    },
-    {
-      "kind": "Var",
-      "name": "word",
-      "printedName": "word",
-      "children": [
-        {
-          "kind": "TypeNominal",
-          "name": "Optional",
-          "printedName": "Swift.String?",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "String",
-              "printedName": "Swift.String",
-              "usr": "s:SS"
-            }
-          ],
-          "usr": "s:Sq"
-        }
-      ],
-      "declKind": "Var",
-      "usr": "s:6Simple4wordSSSgvp",
-      "mangledName": "$s6Simple4wordSSSgvp",
-      "moduleName": "Simple",
-      "declAttributes": [
-        "HasInitialValue",
-        "HasStorage",
-        "RawDocComment"
-      ],
-      "hasStorage": true
     }
   ],
   "json_format_version": 6
